@@ -4,7 +4,7 @@ import numpy as np
 def generate_data():
     """Generates x values and their squared values"""
     x = np.linspace(-10, 10, 100)
-    y = x ** 2
+    y = x ** 3
     return x, y
 
 def plot_data(x, y):
